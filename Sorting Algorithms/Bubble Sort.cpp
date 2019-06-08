@@ -7,6 +7,8 @@ int main(){
     bool is_swapped;
 
     cin>>n;
+    
+    int ar[n];
 
     for(i=0;i<n;i++){
         cin>>ar[i];
