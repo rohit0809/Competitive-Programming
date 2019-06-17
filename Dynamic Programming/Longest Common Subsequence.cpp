@@ -30,7 +30,31 @@ int main(){
 	
 	int lcs = dp[len1][len2];
 	
-	cout<<lcs;
+	cout<<lcs<<"\n";
+	
+	// Backtrack and Print the LCS
+	
+	i=len1;
+	j=len2;
+	
+	string sol="";
+	
+	while(i>0 && j>0){
+		if(str1[i-1]==str2[j-1]){
+			i--;
+			j--;
+			sol+=str1[i];
+		}
+		else if(dp[i-1][j] > dp[i][j-1]){
+			i--;
+		}
+		else{
+			j--;
+		}
+	}
+	
+	reverse(sol.begin(),sol.end());
+	cout<<sol;
     
     return 0;
 }
