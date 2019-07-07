@@ -35,7 +35,7 @@ int main(){
 			dp[i][j] = dp[i-1][j];  // excluding
 			
 			if(ar[i] <= j){
-				dp[i][j]|= dp[i][j-ar[i]]; // including 
+				dp[i][j]|= dp[i-1][j-ar[i]]; // including 
 			}
 		}
 	}
