@@ -34,6 +34,36 @@ vector<int> searchInSortedMatrix(vector<vector<int> > matrix, int target) {
 
 
 // O(LOG(MAX(ROW,COLUMN))) --  Binary Search
+// Source: https://www.geeksforgeeks.org/search-element-sorted-matrix/
+
+// This function does Binary search for x in i-th 
+// row. It does the search from mat[i][j_low] to 
+// mat[i][j_high] 
+void binarySearch(int mat[][MAX], int i, int j_low, 
+                                int j_high, int x) 
+{ 
+    while (j_low <= j_high) 
+    { 
+        int j_mid = (j_low + j_high) / 2; 
+  
+        // Element found 
+        if (mat[i][j_mid] == x) 
+        { 
+            cout << "Found at (" << i << ", "
+                 << j_mid << ")"; 
+            return; 
+        } 
+  
+        else if (mat[i][j_mid] > x) 
+            j_high = j_mid - 1; 
+  
+        else
+            j_low = j_mid + 1; 
+    } 
+  
+    // element not found 
+    cout << "Element no found"; 
+} 
 
 void sortedMatrixSearch(int mat[][MAX], int n, 
                                   int m, int x) 
