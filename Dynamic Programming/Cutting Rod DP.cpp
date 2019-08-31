@@ -8,7 +8,8 @@
 
 using namespace std;
 
-//Cutting Rod Price maximisation
+//Cutting Rod DP
+// maximize profit
 
 int solve(int ar[], int n){
 	
@@ -17,11 +18,10 @@ int solve(int ar[], int n){
 	dp[0]=0;
 	
 	for(int i=1;i<=n;i++){
-		int val = INT_MIN;
+		dp[i]=INT_MIN;
 		for(int j=0;j<i;j++){
-			val = max(val,ar[j] + dp[i-j-1]);
+			dp[i]=max(dp[i],ar[j]+dp[i-j-1]);
 		}
-		dp[i]=val;
 	}
 	
 	return dp[n];
@@ -29,12 +29,13 @@ int solve(int ar[], int n){
 }
 
 int main() {
+	
     
 	int n,i;
 	
 	cin>>n;
 	
-	int ar[n+1];
+	int ar[n];
 	
 	for(i=0;i<n;i++){
 		cin>>ar[i];
