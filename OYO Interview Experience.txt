@@ -1,0 +1,118 @@
+ROUND 1 (HR Conversation): (20 mins)
+------------------------------------------------------
+-> Intro of Hiring Team.
+-> Why switching Job ?
+-> Willing to Relocate ?
+-> Which Tech Stacks you are working on ?
+-> Briefly describe your role in your current company.
+-> What programming languages you know and In which programming languages you are comfortable ?
+-> Current CTC and Expected CTC ?
+
+
+ROUND 2 (Technical Round): (40 mins)
+--------------------------------------------------------
+-> Introduce Yourself.
+
+-> A sorted row wise Boolean matrix is given. Find the row number which has maximum number of 1's.
+Expected Complexity: O(n)
+
+-> A connected undirected graph, a source and a destination are provided. Devise an Algorithm
+ to find the longest path between the source and the destination.
+ Expected Complexity: O(n^2)
+
+ -> An array of numbers(positive, negative, zero) is given. Write a program to find the largest sub-array
+ whose sum is 0.
+ Expected Complexity: O(n)
+
+ 
+ ROUND 3 (Technical Round): (1 hour)
+ ----------------------------------------------------------
+ -> Introduce Yourself.
+
+ ->Find the largest rectangular area inside the histogram.
+ (Before the interviewer completed the question, I told the entire approach. Unfortunately,
+ this question was removed).
+
+ ->A Binary Search Tree is provided. Every node has a value assigned. Write an algorithm to print all the triplets(3 distinct nodes in BST)
+ whose sum is equal to K.
+ Expected Time Complexity: O(n^2)
+ Expected Space Complexity: O(logn)  [Space Optimization was the main focus]
+
+ ->An array of numbers(positive, negative, zero) is provided. Print the maximum of every K size
+ contiguous sub-arrays.
+ Expected Time Complexity: O(n)
+
+ 
+ ROUND 4(Technical Round): (1 hour)
+--------------------------------------------------------------
+-> Introduce Yourself.
+
+->A row wise and column wise sorted matrix is provided. Write an algorithm to print the entire
+matrix in sorted form (ascending or descending).
+Expected Time Complexity: Less than O(n^2(logn^2))
+
+->An array of strings is provided. Find the count of string pairs which when concatenated 
+becomes palindrome.
+Expected Time Complexity: Less than O(n^2*(len))
+
+-> Write a SQL Query to find the Nth highest value from a table.
+
+->What you know about Locking Mechanisms ? Explain Semaphores and Critical Section.
+
+
+ROUND 5(Technical Round): (1 hour 15 minutes)
+-----------------------------------------------------------------
+-> Introduce Yourself. 
+
+-> Design Chess. (OOPS Knowledge Test)
+Class Diagram was basically asked. Need to tell all the classes that can be required along with
+attributes and functions.
+Main focus of Interviewer was on Knight Class. She asked lots of questions on what functions can be added
+and what more attributes can be added. How to distinguish between Knights of opposite team ? 
+Requirement of Interface or not ?
+
+-> Difference between Abstract Class and Interface. Expalin with examples.
+When Abstract class is needed ? And When Interface is not needed ?
+
+->A Max Heap is provided. Find the minimum element in Max Heap.
+Expected Time Complexity: O(n)
+
+->A Binary Tree is given. An infinite amount of water is poured on root. Every node has value assigned to it.
+When a node absorbs water, then water is sinked towards its children. Time taken by node to absorb water is 
+equal to value assigned to it.
+Find the maximum time by which entire Tree will absorb water.
+
+-> What do you know about Process Synchronization ?
+Explain Semaphores and Difference between Binary and Counting Semaphores with code.
+What is Mutex and how it helps in Critical Section ?
+
+->What do you know about Database Indexing ? What are its Pros and Cons ?
+
+->Do you know about Design Patterns ? What is Singleton Desing pattern ?
+Explain Singleton pattern with lock avoiding mechanisms.
+
+
+ROUND 6(Director/Manager Round): (1 hour)
+--------------------------------------------------------------------
+-> What do you know about OYO IOT team ? What products are you aware of ?
+
+-> How resourceful you are in your company ? Out of total revenue of company, how many dollars are
+generated because of you ? Explain your importance and role.
+
+-> You are doing a 14 days sprint work. But suddenly business requirements arrive and you have to complete it 
+within 5 days. How will you do that ?
+
+-> Why OYO and Why you want to change your current company ? Give atleast two points in support.
+
+-> Suppose you have to launch Uber Pool. You have two candidate cities. In one city, there is huge demand but less supply(resource),
+and In other City, there is huge supply but less demand.
+Which City will you choose to launch Uber Pool ? Explain the Pros and Cons. 
+
+-> What could be the Cons for the Uber Drivers ?
+
+-> Suppose Uber Pool launch is failed. Who are the stakeholders, who will be affected the most ?
+
+-> Explain any situation where you outperformed under tight deadline.
+
+-> Explain any situation where you have conflict with your manager.
+
