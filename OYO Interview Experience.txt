@@ -7,6 +7,7 @@ ROUND 1 (HR Conversation): (20 mins)
 -> Briefly describe your role in your current company.
 -> What programming languages you know and In which programming languages you are comfortable ?
 -> Current CTC and Expected CTC ?
+-> Current Notice Period ?
 
 
 ROUND 2 (Technical Round): (40 mins)
@@ -43,7 +44,7 @@ Expected Complexity: O(n)
  Expected Time Complexity: O(n)
 
  
- ROUND 4(Technical Round): (1 hour)
+ ROUND 4 (Technical Round): (1 hour)
 --------------------------------------------------------------
 -> Introduce Yourself.
 
@@ -60,7 +61,7 @@ Expected Time Complexity: Less than O(n^2*(len))
 ->What you know about Locking Mechanisms ? Explain Semaphores and Critical Section.
 
 
-ROUND 5(Technical Round): (1 hour 15 minutes)
+ROUND 5 (Technical Round): (1 hour 15 minutes)
 -----------------------------------------------------------------
 -> Introduce Yourself. 
 
@@ -92,7 +93,7 @@ What is Mutex and how it helps in Critical Section ?
 Explain Singleton pattern with lock avoiding mechanisms.
 
 
-ROUND 6(Director/Manager Round): (1 hour)
+ROUND 6 (Director/Manager Round): (1 hour)
 --------------------------------------------------------------------
 -> What do you know about OYO IOT team ? What products are you aware of ?
 
