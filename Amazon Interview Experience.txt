@@ -76,7 +76,7 @@ Expected Time Complexity: O(1)
 ->Write code for Heapify function. Explain Heapify by taking a Binary Tree with nodes assigned some values.
 Analyze Space and Time Complexity. Also asked to analyze Space complexity in terms of compiler's stack space.
 
-->Prove that the height of Complete Binary tree will all levels filled will be log2N. (N is number of nodes)
+->Prove that the height of Complete Binary tree with all levels filled will be log2N. (N is number of nodes)
 
 
 Online Video Conference Round 
