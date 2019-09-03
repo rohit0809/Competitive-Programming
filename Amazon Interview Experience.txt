@@ -1,0 +1,107 @@
+ROUND 1 (Online Assessment): (90 mins)
+-------------------------------------------------
+->A Permutation of numbers is given in an array. Write an algorithm to
+print the next greater permutaion of the given permutation.
+Expected Time Complexity: O(n)
+
+->A string is given in the stringyfied JSON format. Write an algorithm to find the 
+maximum depth of JSON nesting.
+Expected Time Complexity: O(len)
+
+->28 MCQs (DS Algo/ C++ / CS Fundamentals/ Pointers)
+
+Onsite Rounds: Amazon Bangalore
+*********************************
+
+ROUND 2 (Written Round): (45 mins)
+-----------------------------------------------------
+->An array of numbers(positive, negative, zero) is provided. Print the maximum of every K size
+ contiguous sub-arrays.
+
+->Reverse a Single Linked List.
+
+
+ROUND 3 (Technical F2F): (1hr 30 mins)
+------------------------------------------------------
+->Introduce Yourself.
+
+->An array of numbers(positive, negative and zero) is provided. Write an algorithm to find the 
+maximum product sub-array.
+Expected Time Complexity: O(n)
+
+->An array of numbers(positive, negative and zero) is provided. Write an algorithm to find whether it is 
+possible to divide the array into two halves of equal sum. Return Yes or No.
+
+Follow up to above question: What if the array is not static ? Numbers keep on adding in the array and you have 
+to decide whether partition into equal halves still possible or not ?
+
+->Behavioral Question: Is there any situation in your professional life where you have outperformed under pressure ?
+
+
+ROUND 4 (Technical F2F): (1 hr)
+--------------------------------------------------------
+->Introduce Yourself.
+
+->A string is given. Write an algorithm to find the longest substring containing distinct characters ie
+no character should be repeated in the substring.
+Expected Time Complexity: O(len)
+
+->An array of numbers are given. Partition the array into different size sub-arrays. Write an algorithm to find 
+the minimum of all the maximum sub-array sums amongst all partition configuration.
+
+->Stack of boxes are aligned side by side on the ground. Intially the gravity was downwards. But, suddenly the 
+gravity direction changes towards right and boxes start moving rightwards.
+An array was provided which specifies the size of each stack aligned side by side before the change in direction
+of gravity.
+Print the final configuration of stacks(size of stacks) after the change in direction of gravity. 
+
+
+ROUND 5 (Technical F2F): (1 hr)
+----------------------------------------------------------
+->Introduce Yourself.
+
+->Behavioral Questions:
+>Tell me about any situation when you have received negative feedback from Peers.
+>Describe any positive impact or any achievment in your Professional Life.
+>Describe any situation where you could not complete your work and what were the consequences ?
+
+->You are provided with an infinite stream of characters. At each second, a character is arriving.
+Find the first non-repeating character at each second.
+Expected Time Complexity: O(1)
+
+->Do you know about Process Scheduling ? Explain Priority Scheduling with examples and graph.
+
+->How will you implement Priority Scheduler ? Write and Explain the code.
+
+->Write code for Heapify function. Explain Heapify by taking a Binary Tree with nodes assigned some values.
+Analyze Space and Time Complexity. Also asked to analyze Space complexity in terms of compiler's stack space.
+
+->Prove that the height of Complete Binary tree will all levels filled will be log2N. (N is number of nodes)
+
+
+Online Video Conference Round 
+********************************
+
+ROUND 6 (Behavioral + Technical): (1 hrs 20 mins)
+-----------------------------------------------------------------
+->Introduce Yourself.
+
+->Describe any situation in your Professional life where you did something out of your responsibility.
+
+->Describe any situation in your Professional life when you exceeded all the expectations.
+
+->Describe any situation when you had any conflict or disagreement with your manager.
+
+->Describe any situation when you received any negative feedback from your Peers and how you handled it. 
+How is your relation with your peers ? 
+
+->How you perform code review in your company ?
+
+->What technical reads have you done in the last six months and how it helped you in your Professional Life ?
+
+->What further enhancements or implementations you did after those technical reads ?
+
+->Technical Question:
+You are provided a directed Graph with N nodes and M edges. Write an algorithm to check whether the given Graph is Tree or not.
+If it is a Tree return the root of tree else return -1.
+Implement it using Adjacency List. 
