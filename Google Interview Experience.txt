@@ -1,0 +1,61 @@
+By Shrirupa Bhattacharjee: Known by renesmee on Codechef and Codeforces
+--------------------------------------------------------------------------------
+
+Online Round: 
+****************
+Question asked was just the different wording of following question on leetcode.
+https://leetcode.com/problems/hand-of-straights/
+
+
+Onsite Rounds:
+******************
+
+ROUND 1: (45 minutes)
+----------------------
+1a. Input: start word, end word, array of words
+Find if its possible to reach end from start. You can only move from one word to another if both differ by exact one character. If yes, find the minimum steps to reach end.
+
+1b. Given a graph(no of nodes, list of edges u,v) , cat position, mouse position. Device an algo to determine if the cat can catch the mouse or the mouse escapes. Cat wins if both are at the same vertex at the same time. They take alternate turns. Consider all the cases- cat moves first, mouse move first, no:of nodes>=1.
+
+
+ROUND 2: (45 minutes)
+-----------------------
+2. Design a friend recommender system on FB.
+Given a global friend list (a b : denotes a and b are friends on FB) and a person.
+Task: Recommend a list of friends for that person.
+Criteria: Recommendation is based on max no of mutual friends.
+
+
+ROUND 3: (45 minutes)
+------------------------
+3a. Given an array: A
+In a race, A[i] comes just after i. Design test cases for the problem and find the rank of all in 2 ways.
+Case 1: start from 1st
+Case 2: start from last
+
+3b. There a 2 players and a matrix of n*m. Given 1:2 block to each, each needs to place in an empty space. The player looses if he's not able to place the block. Find a better soln than backtracking.
+
+
+ROUND 4: (45 minutes)
+-------------------------
+4. Write 2 functions updateArray() and getAns().
+
+Given k.
+
+Case 1: k is fixed
+Update array: argument- size
+Function: inserts an element at the end
+
+GetAns: argument - size
+Function: returns the product of the last k numbers.
+
+Case 2: k varies
+GetAns: argument - k,size
+Function: returns the product of the last k numbers.
+
+
+ROUND 5: (45 minutes) [Behavioral]
+-------------------------------------
+5. Non technical :
+About current project, most difficult project you've been involved into, approach strategy, 
+what could you have done better, which language did you choose and why?
