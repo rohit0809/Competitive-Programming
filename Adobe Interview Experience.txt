@@ -1,4 +1,4 @@
-Online Rounds
+Online Rounds : (75 mins)
 *******************
 
 Round 1:
@@ -22,8 +22,8 @@ vowel and end with a consonant.
 Onsite Rounds
 ********************
 
-Round 3:
--------------
+Round 3: (1 hr)
+-----------------
 -> Brief Introduction
 
 -> A debugging question was asked on the concepts of Constructor and Destructor in C++.
@@ -35,7 +35,7 @@ Expected Time Complexity: O(Count of set bits)
 Expected Space Complexity: O(1)
 Expected Time Complexity: O(Max(len1,len2))
 
-Round 4:
+Round 4: (1 hr)
 ----------------
 -> Brief Introduction.
 

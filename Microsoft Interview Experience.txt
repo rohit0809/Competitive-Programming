@@ -1,0 +1,138 @@
+Online Round: (Telephonic HR Conversation)
+**********************************************
+
+Round 1: (15 mins)
+------------------
+-> Are you willing to relocate to Hyderabad ?
+
+-> Why would you like to leave current company so early ?
+
+-> Your Current Notice Period ?
+
+
+Onsite Rounds:
+*************************
+
+Round 2: (1 hr)
+----------------
+-> Brief Introduction about the role in Current Company.
+
+-> Given an array of size 2*n, where first n elements will be a1, a2, a3,.....an and remaining n elements 
+will be b1, b2, b3,......bn. Write a program to output the array in the form:
+a1, b1, a2, b2, a3, b3,.........an, bn. Assume the size of the array to be power of 2.
+
+*Expected Space Complexity: O(1)
+Expected Time Complexity: O(n) or O(nlogn)
+
+-> Design a Max Stack, where you have to implement push, pop and getMax functions. getMax will output the maximum
+element from the stack.
+
+Expected Time Complexity: O(1) for all operations
+Expected Space Complexity: O(size of stack) or O(1)
+
+
+Round 3: (1 hr)
+------------------
+-> Brief Introduction and discuss about the achievments and responsiblities in the earlier organizations you have worked.
+
+-> Why would you like to leave your current company so early ?
+
+-> You are provided with a list of words and queries. In each query, you will be given a word. Design an algorithm to 
+output all the words from the given list which are anagrams to the queried word.
+First the interviewer asked to design the data structure which you will use to solve this problem.
+
+-> Design a Min Stack, where you have to implement push, pop and getMin functions. getMin will output the minimum
+element from the stack.
+
+Expected Time Complexity: O(1) for all operations
+Expected Space Complexity: O(size of stack) or O(1)
+
+-> Given a boolean row-wise sorted matrix of size N*M. Write a program to find the row number which has maximum number of 1's. 
+Expected Time Complexity: Linear
+
+-> You are provided a matrix of size N*N. An element in the matrix occurs more than (N^2)/2 times. All other elements of the matrix 
+are distinct and occur only once. Design an algorithm to find that element which has frequency > (N^2)/2 in the best optimal way.
+Expected Space Complexity: O(1)
+Expected Time Complexity: Less than O((N^2)/2)
+
+-> Above question is now reduced to 1-D array of size N, where an element was occuring more than N/2 times and all other elements
+are distinct and occur only once. Find that element.
+Expected Space Complexity: O(1)
+Expected Time Complexity: Less than O(N/2)
+
+
+Round 4: (1 hr)
+------------------
+-> Brief Introduction and discussion about the roles and responsiblities in current company.
+
+-> Explain the internal structure of Database, and how data is stored.
+
+-> What is Copy Constructor in C++ ?
+
+-> Explain what are microservices and how they work.
+
+-> What are REST APIs and how they function ?
+
+-> Why Microsoft ?
+
+-> What is Singleton Design pattern ? Explain it by writing code for the Singleton class.
+
+-> Given a Binary Tree. Design an algorithm to print the circumference nodes of the tree in clock-wise direction.
+
+
+Round 5: (1 hr)
+-------------------
+-> Brief Introduction.
+
+-> Write a program to reverse a given integer to output another integer. Need to handle cases for negative integer and those integers 
+which will overflow when reversed.
+
+-> Design Question:
+You are provided a hierarchy of an IT organization in a tree structure. Suppose at top is CEO, then under him CXO's, then under CXO's 
+there are Directors, then under Directors there are Managers, and so on till junior developers.
+Each role in the hierarchy has complete information of Payments of hierarchy under him (including himself).
+
+Design a Payment system for the given IT organization. After designing, implement an API or a function, which when 
+provided a particular role as an input, will output the entire cost incurred by the hierarchy under that role.
+
+-> Discussions were made on why class or abstract class instead of Interface.
+
+-> How interface will help in designing ?
+
+-> Computer Science Fundamentals:
+What is Deadlock ? Explain with example.
+
+What is Process ?
+
+Explain Singleton Design pattern and where it can be used ? Write a code to explain it. 
+
+
+Round 6: (1 hr) (Hiring Manager Round)
+-----------------------------------------
+-> Given a Binary Tree. Design an algorithm to print the circumference nodes of the tree in clock-wise direction.
+Extra Constraints were added: No extra space should be used. Try to solve it recursively.
+
+Follow up: Solve the same problem for N-ary tree.
+
+-> Given a Binary Tree. Design an algorithm to delete the circumference nodes of the tree.
+Again no extra space is allowed. Solve it recursively.
+
+Follow up: Solve the same problem for N-ary tree. 
+
+-> Write the modular recursive codes for the following functions:
+#Print the left boundary nodes of tree.
+#Print the right boundary nodes of tree.
+#Print the bottom boundary nodes of tree. 
+
+Now combine all three functions to print the complete boundary nodes of tree. Again, no extra space was allowed. 
+
+-> Discussions about the current roles and responsiblities and also about the previous employer.
+
+-> What is your biggest achievment in your professional life ?
+
+-> Why you want to switch so early from your current Company ?
+
+-> Which role you like more : Back-end or Front-end ? Why not the other one ? 
+
+
+
