@@ -94,7 +94,7 @@ Explain Singleton pattern with lock avoiding mechanisms.
 
 
 ROUND 6 (Director/Manager Round): (1 hour)
---------------------------------------------------------------------
+-------------------------------------------------------------------
 -> What do you know about OYO IOT team ? What products are you aware of ?
 
 -> How resourceful you are in your company ? Out of total revenue of company, how many dollars are
