@@ -1,0 +1,48 @@
+Online Rounds
+*******************
+
+Round 1:
+------------
+-> 15 Aptitude and Logical Reasoning Questions.
+-> 5 Conceptual Coding Questions on C, C++ language. Predict output or find the error types questions. All were MCQs.
+
+Round 2:
+-------------
+-> You are provided with list of names and number of votes corresponding to each name. Output the name with maximum
+number of votes. If there are multiple solutions, print the lexicographically smallest name.
+
+-> Consider a string, s = “abc”. An alphabetically-ordered sequence of substrings of s would be 
+{“a”, “ab”, “abc”, “b”, “bc”, “c”}. If we reduce this sequence to only those substrings that start with
+a vowel and end with a consonant, we’re left with {“ab”, “abc”}. The alphabetically first element in this
+reduced list is “ab”, and the alphabetically last element is “abc”. 
+For a given string, determine the alphabetically lowest and alphabetically highest substring that start with a 
+vowel and end with a consonant.
+
+
+Onsite Rounds
+********************
+
+Round 3:
+-------------
+-> Brief Introduction
+
+-> A debugging question was asked on the concepts of Constructor and Destructor in C++.
+
+-> Write a program to find the count of set bits in a given number.
+Expected Time Complexity: O(Count of set bits)
+
+->Given two linked lists. Write a program to detect if they intersect. If yes, find the intersecting node.
+Expected Space Complexity: O(1)
+Expected Time Complexity: O(Max(len1,len2))
+
+Round 4:
+----------------
+-> Brief Introduction.
+
+-> Asked about Projects.
+
+-> Check if a Linked List is a Palindrome or not.
+Expected Space Complexity: O(1)
+Expected Time Complexity: O(len)
+
+-> Predict the output questions based on pointer concepts in C++.  
